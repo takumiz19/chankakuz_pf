@@ -8,10 +8,22 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { hid: 'og:title', property: 'og:title', content: 'chankaku portfolio' },
+      { hid: 'og:url', property: 'og:url', content: 'https://chankaku.net' },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: 'https://chankaku.net/myImage.jpg'
+      },
+      {
+        hid: 'twitter:card',
+        name: 'twitter:card',
+        content: 'summary_large_image'
+      },
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || ''
+        content: 'this is my portfolio'
       }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
