@@ -5,6 +5,7 @@
     <img src="myImage.jpg" />
     <p>Job: Software Engineer(ServerSide & FrontEnd)</p>
     <p>Hobby: Music, Game, Programming</p>
+    <img class="p-profile__img" src="code_review.svg" />
   </div>
 </template>
 
@@ -21,5 +22,13 @@ export default Vue.extend({
   padding-bottom: 10%;
   background-color: #000000;
   color: #ffffff;
+
+  &__img {
+    width: 20%;
+    float: left;
+    @include sp {
+      display: none;
+    }
+  }
 }
 </style>

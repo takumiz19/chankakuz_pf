@@ -2,8 +2,9 @@
   <div>
     <vue-typer
       class="vue-typer"
-      text="Hello World! I am chankaku!"
+      :text="['Hello World!', 'I\'m chankaku!']"
       :repeat="0"
+      :pre-erase-delay="200"
       @completed="onComplete"
     ></vue-typer>
   </div>
