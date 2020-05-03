@@ -59,7 +59,9 @@ export default Vue.extend({
 
 .l-opening {
   padding-top: 25%;
-  // padding-bottom: 50%;
+  @include sp {
+    padding-top: 100%;
+  }
 }
 
 .title {

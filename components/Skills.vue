@@ -49,7 +49,7 @@
         <div class="c-skills__item">
           <p>
             JavaScript:
-            {{ calculateUsedTerm('2018-09-01T00:00:00.000Z', 'year') }}years
+            {{ calculateUsedTerm('2018-04-01T00:00:00.000Z', 'year') }}years
           </p>
           <img src="javascript.png" />
         </div>

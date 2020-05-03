@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="p-opening">
     <vue-typer
       class="vue-typer"
       :text="['Hello World!', 'I\'m chankaku!']"
