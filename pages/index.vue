@@ -52,8 +52,6 @@ export default Vue.extend({
 <style lang="scss">
 .container {
   margin: 0 auto;
-  // height: 100%;
-  // display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;

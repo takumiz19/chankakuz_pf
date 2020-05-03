@@ -47,19 +47,31 @@ export default Vue.extend({
 
   &__items-sns {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     text-align: center;
     padding-top: 20px;
+    @include sp {
+      padding-top: 0px;
+    }
   }
   &__items-slides {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     text-align: center;
     padding-top: 20px;
+    @include sp {
+      padding-top: 0;
+    }
   }
   &__label {
     padding-top: 50px;
     padding-bottom: 50px;
+    @include sp {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
   }
   .c-sns__item {
     padding-left: 50px;
